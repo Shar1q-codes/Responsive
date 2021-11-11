@@ -1,0 +1,375 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0px;
+}
+
+body {
+	background-image: url(./image/shara\ desert.jpg);
+	background-size: 100vw auto;
+	margin: 0px;
+}
+
+
+/* Navigation-Bar Section */
+
+.navbar {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#left-navbar {
+	width: 25%;
+	text-align: center;
+	padding: 0rem 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#left-navbar img {
+	width: 20%;
+	height: 70%;
+	margin-top: 0.5rem;
+}
+
+#right-navbar {
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#right-navbar li {
+	list-style-type: none;
+	vertical-align: middle;
+}
+
+#right-navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+
+/* Main Section */
+
+.main-container {
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main-container1 {
+	width: 45%;
+	text-align: left;
+	color: white;
+	margin-top: 0rem;
+	padding-top: 11rem;
+	padding-bottom: 11rem;
+	padding-right: 4rem;
+	padding-left: 6rem;
+}
+
+.main-container h1 {
+	font-size: 4rem;
+	margin: 1rem 0rem;
+}
+
+.main-container button {
+	width: 8rem;
+	height: 2.5rem;
+	border: 2px solid white;
+	;
+	border-radius: 1.5rem;
+	margin: 1rem, 0rem;
+}
+
+.main-container2 {
+	width: 55%;
+	height: auto;
+	margin-top: 0rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 2rem;
+}
+
+#main-container2-box1 {
+	width: 38%;
+	height: 18vw;
+	box-shadow: 3px 3px 10px rgb(2, 2, 2);
+	background-image: url(./image/pic-1.png);
+	background-size: 100% 100%;
+	border-radius: 20px;
+	margin: 1rem;
+	transition: transform 0s linear;
+}
+
+#main-container2-box1:hover {
+	transform: translateY(-4px)
+}
+
+.main-container2 h3 {
+	color: white;
+	text-align: left;
+	margin-left: 25px;
+}
+
+.main-container2 p {
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#main-container2-box2 {
+	width: 38%;
+	height: 18vw;
+	box-shadow: 3px 3px 10px rgb(2, 2, 2);
+	background-image: url(./image/pic-2.png);
+	background-size: 100% 100%;
+	border-radius: 20px;
+	margin: 1rem;
+	transition: transform 0s linear;
+}
+
+#main-container2-box2:hover {
+	transform: translateY(-4px)
+}
+
+#main-container2-box3 {
+	width: 38%;
+	height: 18vw;
+	box-shadow: 3px 3px 10px rgb(2, 2, 2);
+	background-image: url(./image/pic-3.png);
+	background-size: 100% 100%;
+	border-radius: 20px;
+	margin: 1rem;
+	transition: transform 0s linear;
+}
+
+#main-container2-box3:hover {
+	transform: translateY(-4px)
+}
+
+#main-container2-box4 {
+	width: 38%;
+	height: 18vw;
+	box-shadow: 3px 3px 10px rgb(2, 2, 2);
+	background-image: url(./image/pic-4.png);
+	background-size: 100% 100%;
+	border-radius: 20px;
+	margin: 1rem;
+	transition: transform 0s linear;
+}
+
+#main-container2-box4:hover {
+	transform: translateY(-4px)
+}
+
+
+/* Responsive (Tab)*/
+
+@media screen and (min-width:769px) and (max-width:1050px) {
+	body {
+		background-image: url(./image/shara\ desert.jpg);
+	}
+	#left-navbar {
+		width: 25%;
+		padding: 0rem 0.5rem;
+	}
+	#left-navbar img {
+		width: 35%;
+		height: 65%;
+		margin-top: 0.5rem;
+	}
+	#right-navbar {
+		width: 30%;
+		height: 65px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#right-navbar li {
+		font-size: 0.8rem;
+	}
+	#right-navbar li img {
+		height: 80%;
+		width: 95%
+	}
+	.main-container1 {
+		width: 45%;
+		margin-top: 0rem;
+		padding-top: 9rem;
+		;
+		padding-bottom: 8rem;
+		padding-right: 4rem;
+		padding-left: 5rem;
+	}
+	.main-container h1 {
+		font-size: 3rem;
+		margin: 0rem 0rem;
+	}
+	.main-container p {
+		font-size: 0.9rem;
+		margin: 1rem 0rem;
+	}
+	.main-container button {
+		width: 6rem;
+		height: 1.8rem;
+		border: 2px solid white;
+		;
+		border-radius: 1.5rem;
+		margin: 1rem, 0rem;
+	}
+	.main-container2 {
+		width: 55%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		padding: 4.8rem 1rem;
+	}
+	.main-container2 h3 {
+		color: white;
+		text-align: left;
+		margin-left: 20px;
+	}
+	.main-container2 p {
+		color: white;
+		text-align: center;
+		font-size: 14px;
+	}
+	#main-container2-box1 {
+		width: 41%;
+		height: 18vw;
+		margin: 1rem 1rem;
+	}
+	#main-container2-box2 {
+		width: 41%;
+		height: 18vw;
+		margin: 1rem;
+	}
+	#main-container2-box3 {
+		width: 41%;
+		height: 18vw;
+		margin: 1rem;
+	}
+	#main-container2-box4 {
+		width: 41%;
+		height: 18vw;
+		margin: 1rem;
+	}
+}
+
+
+/* Responsive(mobile) */
+
+@media screen and (min-width:360px) and (max-width:768px) {
+	body {
+		background-image: url(./image/shara\ desert.jpg);
+	}
+	#left-navbar {
+		width: 25%;
+		padding: 0rem 0.5rem;
+	}
+	#left-navbar img {
+		width: 35%;
+		height: 65%;
+		margin-top: 0.5rem;
+	}
+	#right-navbar {
+		width: 30%;
+		height: 65px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#right-navbar li {
+		font-size: 0.6rem;
+	}
+	#right-navbar li img {
+		height: 80%;
+		width: 95%
+	}
+	.main-container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.main-container1 {
+		width: 100%;
+		margin-top: 0rem;
+		padding-top: 2.8rem;
+		;
+		padding-bottom: 2rem;
+		padding-right: 2rem;
+		padding-left: 3rem;
+	}
+	.main-container h1 {
+		font-size: 1.9rem;
+		margin: 0rem 0rem;
+	}
+	.main-container p {
+		font-size: 0.9rem;
+		margin: 1rem 0rem;
+	}
+	.main-container button {
+		width: 6rem;
+		height: 1.8rem;
+		border: 2px solid white;
+		;
+		border-radius: 1.5rem;
+		margin: 1rem, 0rem;
+	}
+	.main-container2 {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.main-container2 h3 {
+		color: white;
+		text-align: left;
+		margin-left: 10px;
+	}
+	.main-container2 p {
+		color: white;
+		text-align: center;
+		font-size: 14px;
+	}
+	#main-container2-box1 {
+		width: 50%;
+		height: 40vw;
+		margin: 1rem 1rem;
+	}
+	#main-container2-box2 {
+		width: 50%;
+		height: 40vw;
+		margin: 1rem 1rem;
+	}
+	#main-container2-box3 {
+		width: 50%;
+		height: 40vw;
+		margin: 1rem 1rem;
+	}
+	#main-container2-box4 {
+		width: 50%;
+		height: 40vw;
+		margin: 1rem 1rem;
+	}
+}
